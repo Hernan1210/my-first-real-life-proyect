@@ -1,0 +1,23 @@
+li {
+    display: inline;
+    margin-right: 10px;
+}
+.menu{
+    display: inline;
+    margin-right: 10px; 
+}
+.room >img {
+    width: 100px;
+    height: 100px;
+}
+.exp {
+    border: 2px #eee solid;
+    border-radius: 30%;
+    width: 100px
+}
+.exp i {
+    color: black;
+}
+.exp b {
+    color: chartreuse;
+}
