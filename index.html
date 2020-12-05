@@ -10,17 +10,27 @@
 
 <body>
     <section class="header"> 
-    <img src="/images/logo/Reservia.svg" alt="">
-        <ul> 
-            <li class="menu">accommodation</li> 
-            <li>home</li>
-            <li>sing up</li> 
-        </ul>
+        <div class="logo">
+            <img src="/images/logo/Reservia.svg" alt="">
+        </div>
+        <div class="menuNav">
+            <ul> 
+                <li class="menu"><a href="#">accommodation</a></li> 
+                <li><a href="#">home</a></li>
+                <li><a href="#">sing up</a></li> 
+            </ul>
+        </div>
+ 
+       
     </section>
 
         <section class="filter">
             <h2>find a place for your dream vacation</h2>
-            <h3> <i class="fas fa-map-marker-alt"></i> marseille france</h3>
+          
+                <div>
+                    <span><i class="fa fa-map-marker-alt"></i></span> <input placeholder="marseille france" /> <button class="btnSearch">Search</button>
+                </div>
+        
             <ul>
                 <li class="exp"> <i class="fas fa-wallet"></i> low cost</li>
                 <li> <i class="fas fa-child"></i>family-friendly</li> 
@@ -37,9 +47,9 @@
                 accommodations in marseille
             </h2>
             <div class="room-list">
-                    <div class="room">
-                        <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
-                        <h4>Auberge la cannebiere</h4>
+                    <div class="room test">
+                        <img src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                        <h4>Auberge la cannebiere</h4> 
                         <p>night starting at 25€</p>
                         <div class="fas fa-star"></div>
                         <div class="fas fa-star"></div>
@@ -48,7 +58,7 @@
                         <div class="fas fa-star"></div>
                     </div>
                     <div class="room">
-                        <img src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+                        <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
                         <h4>hotel du port</h4>
                         <p>night starting at 52€</p> 
                         <div class="fas fa-star"></div> 
@@ -58,7 +68,7 @@
                         <div class="fas fa-star"></div> 
                     </div>
                     <div class="room">
-                        <img src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                        <img src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
                         <h4>les mouettes hotel</h4>
                         <p>night starting at 76€</p>
                         <div class="fas fa-star"></div>
@@ -68,7 +78,7 @@
                         <div class="fas fa-star"></div>
                     </div> 
                      <div class="room">
-                        <img src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                        <img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
                         <h4>hotel de la mer</h4>
                         <p>night starting at 46€</p>
                         <div class="fas fa-star"></div>
@@ -78,7 +88,7 @@
                         <div class="fas fa-star"></div>
                     </div>
                     <div class="room">
-                        <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+                        <img src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
                         <h4>Auberge le panier</h4>
                         <p>night starting at 23€</p>
                         <div class="fas fa-star"></div>
@@ -88,9 +98,9 @@
                         <div class="fas fa-star"></div>
                     </div>
             <div class="room ">
-                <img src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+                <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
             <h4>hotel chez Amina</h4>
-            <p>night stsrtig 96€</p>
+            <p>night stsrtig at 96€</p>
             <div class="fas fa-star"></div>
             <div class="fas fa-star"></div>
             <div class="fas fa-star"></div>
@@ -100,9 +110,42 @@
 
                      <p> show more rooms</p> 
             </div> 
-        <div class="popular">
-            <h3>Most Popular</h3>
         </div>
+        <div class="mostpopular">
+            <h2>most popular<i class="fas fa-chart-line"></i></h2>
+                    <div class="room">
+            
+            <img src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+            <h4>morning sun hotel</h4>
+            <p>night starting at 128€</p>
+        <div class="fas fa-star"></div>
+        <div class="fas fa-star"></div>
+        <div class="fas fa-star"></div>
+        <div class="fas fa-star"></div>
+        <div class="fas fa-star"></div>
+        </div>
+        <div class="room">
+            <img src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+            <h4>Au coeur de l'eau bed and breakfast</h4>
+            <p>night starting at 71€</p>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+        </div>
+        <div class="room">
+            <img src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+            <h4>Tout bleu et blanc Hotel</h4>
+            <p>night starting at 68€</p>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+            <div class="fas fa-star"></div>
+        </div> 
+        </div>
+       
         </section>
 
         <section class="activities">

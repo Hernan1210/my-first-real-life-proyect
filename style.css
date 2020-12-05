@@ -1,10 +1,13 @@
-li {
-    display: inline;
-    margin-right: 10px;
+a {
+    text-decoration: none;
 }
 .menu{
     display: inline;
-    margin-right: 10px; 
+    margin-right: 50px; 
+}
+li {
+    display: inline;
+    margin-right: 50px;
 }
 .room >img {
     width: 100px;
@@ -20,4 +23,37 @@ li {
 }
 .exp b {
     color: chartreuse;
+}
+
+
+.header ,.accomadation {
+    display: flex;
+}
+.header .menuNav{
+    align-items: flex-end;
+}
+.menuNav{
+    position: absolute;
+    right: 0;
+}
+.btnSearch{
+    color: #fff;
+    background-color: blue;
+}
+.rooms{
+    width : 800px;
+    background-color: #eee;
+}
+.room-list{
+    display: flex;
+    flex-wrap: wrap ;
+}
+.room{
+    background-color: #fff;
+    width:250px;
+    height: auto;
+    margin: 20px;
+}
+.test{
+   background-color: red; 
 }
